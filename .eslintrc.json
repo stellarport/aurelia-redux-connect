@@ -1,0 +1,9 @@
+{
+    "extends": "./node_modules/aurelia-tools/.eslintrc.json",
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "no-var": 1,
+        "no-trailing-spaces": [2, { "skipBlankLines": true }],
+        "brace-style": [2, "stroustrup", { "allowSingleLine": true }]
+    }
+}
